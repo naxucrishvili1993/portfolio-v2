@@ -3,7 +3,7 @@ import ProjectCard from "./ProjectCard";
 
 function Projects() {
 	return (
-		<section id="projects" className="mx-5 px-5">
+		<section id="projects" className="mx-5 px-5 mb-20">
 			<h2 className="text-3xl text-center font-semibold tracking-widest text-g uppercase mx-5 mt-[5rem] md:text-4xl mb-[40px]">
 				Projects
 			</h2>

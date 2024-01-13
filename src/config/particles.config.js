@@ -12,7 +12,7 @@ export default {
 	interactivity: {
 		events: {
 			onClick: {
-				enable: true,
+				// enable: true,
 				mode: "push",
 			},
 			onHover: {
@@ -58,7 +58,7 @@ export default {
 				enable: true,
 				area: 800,
 			},
-			value: 80,
+			value: 100,
 		},
 		opacity: {
 			value: 0.5,
