@@ -14,10 +14,12 @@ const CustomSkill = styled.div`
 
 function Skills() {
 	return (
-		<CustomSkill className="mx-auto">
-			<h2 className="text-4xl text-center font-semibold tracking-widest text-g uppercase">
-				Skills
-			</h2>
+		<CustomSkill className="mx-auto text-center">
+			<div className="inline-flex mx-auto">
+				<h2 className="text-4xl font-semibold tracking-widest text-g uppercase custom-heading">
+					Skills
+				</h2>
+			</div>
 			{skills.map((skill, idx) => (
 				<Skill skill={skill.skill} value={skill.value} key={idx} />
 			))}

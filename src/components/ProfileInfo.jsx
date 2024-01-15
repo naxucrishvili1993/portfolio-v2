@@ -5,7 +5,7 @@ function ProfileInfo() {
 				<div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8 relative">
 					<div className="max-w-xl mx-auto text-center">
 						<div className="inline-flex px-4 py-5 mx-auto rounded-full mb-5">
-							<h2 className="text-4xl font-semibold tracking-widest text-g uppercase">
+							<h2 className="text-4xl font-semibold tracking-widest text-g uppercase custom-heading">
 								About Me
 							</h2>
 						</div>

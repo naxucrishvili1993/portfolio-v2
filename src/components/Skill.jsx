@@ -30,7 +30,7 @@ const Progress = styled.span`
 function Skill({ skill, value }) {
 	return (
 		<li>
-			<h3 className="mb-3 font-medium tracking-wider">{skill}</h3>
+			<h3 className="mb-3 font-medium tracking-wider text-start">{skill}</h3>
 			<Bar>
 				<Progress
 					className={`${skill}`}
